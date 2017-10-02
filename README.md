@@ -4,7 +4,7 @@
 
 Processingでのシーン管理を、普段のコードに修正を加えることなく可能にします。
 
-## Usaege
+## Usage
 
 ### Init
 
