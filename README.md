@@ -1,5 +1,7 @@
 # sceneManager
 
+![sceneManager](https://gyazo.com/3c1be0d59cffd51956459afecad7c0f3.png)
+
 ## About
 
 Processingでのシーン管理を、普段のコードに修正を加えることなく可能にします。
