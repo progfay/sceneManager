@@ -16,7 +16,7 @@
   long now = System.nanoTime();
 
   if (frameCount == 0) {
-    sceneAdministrator.getCurrentScene().setup();
+    SceneAdministrator.getCurrentScene().setup();
   } else {
     double rate = 1000000.0 / ((now - frameRateLastNanos) / 1000000.0);
     float instantaneousRate = (float) (rate / 1000.0);
@@ -27,7 +27,7 @@
     pmouseX = dmouseX;
     pmouseY = dmouseY;
 
-    sceneAdministrator.getCurrentScene().draw();
+    SceneAdministrator.getCurrentScene().draw();
 
     dmouseX = mouseX;
     dmouseY = mouseY;
@@ -46,5 +46,6 @@
   if (frameCount != 0) handleMethods("post");
 
   frameRateLastNanos = now;
-  frameCount++;
+  SceneAdministrator.incrementFrameCount();
+  frameCount = SceneAdministrator.getFrameCount();
 }

@@ -11,7 +11,7 @@ class testScene1 extends Scene {
   }
   
   void keyPressed() {
-    sceneAdministrator.changeScene("1-2");
+    SceneAdministrator.changeScene("1-2");
   }
 }
 
@@ -29,6 +29,6 @@ class testScene2 extends Scene {
   }
   
   void keyPressed() {
-    sceneAdministrator.changeScene("2-1");
+    SceneAdministrator.changeScene("2-1");
   }
 }

@@ -18,7 +18,7 @@ class ConnectScene1_2 extends Scene {
       fill(0, 0, 255, (this.count - 128) * 2);
       rect(mouseX, mouseY, 100, 100);
     }
-    if(this.count++ >= 255) sceneAdministrator.changeScene("2");
+    if(this.count++ >= 255) SceneAdministrator.changeScene("2");
   }
 }
 
@@ -41,6 +41,6 @@ class ConnectScene2_1 extends Scene {
       fill(255, 0, 0, (this.count-128)*2);
       ellipse(mouseX, mouseY, 100, 100);
     }
-    if(this.count++ >= 255) sceneAdministrator.changeScene("1");
+    if(this.count++ >= 255) SceneAdministrator.changeScene("1");
   }
 }
