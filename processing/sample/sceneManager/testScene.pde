@@ -9,7 +9,7 @@ class testScene1 extends Scene {
     fill(255, 0, 0);
     ellipse(mouseX, mouseY, 100, 100);
   }
-  
+
   void keyPressed() {
     SceneAdministrator.changeScene("1-2");
   }
@@ -27,7 +27,7 @@ class testScene2 extends Scene {
     fill(0, 0, 255);
     rect(mouseX, mouseY, 100, 100);
   }
-  
+
   void keyPressed() {
     SceneAdministrator.changeScene("2-1");
   }

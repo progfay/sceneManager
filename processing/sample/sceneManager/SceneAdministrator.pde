@@ -24,11 +24,11 @@ static class SceneAdministrator {
   static public Scene getCurrentScene() {
     return sceneMap.get(currentScene);
   }
-  
+
   static public void incrementFrameCount() {
     frameCount++;
   }
-  
+
   static public int getFrameCount() {
     return frameCount;
   }
