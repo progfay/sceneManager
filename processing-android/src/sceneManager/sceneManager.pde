@@ -1,1 +1,0 @@
-SceneAdministrator sceneAdministrator = new SceneAdministrator();
