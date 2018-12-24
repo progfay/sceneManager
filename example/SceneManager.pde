@@ -1,4 +1,4 @@
-static class SceneAdministrator {
+static class SceneManager {
   static private HashMap<String, Scene> sceneMap     = new HashMap<String, Scene>();
   static private String                 currentScene = null;
   static private int                    frameCount   = 0;
