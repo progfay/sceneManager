@@ -4,17 +4,13 @@
 
 ## About
 
-Processingでのシーン管理を、普段のコードに修正を加えることなく可能にします。
+Processingの内部コードを書き換えることで、シーン管理を実現します。
 
 ## Usage
 
 ### Init
 
-```java
-SceneAdministrator sceneAdministrator = new SceneAdministrator();
-```
-
-必ず `sceneAdministrator` という名前でインスタンス化してください。
+[src](https://github.com/progfay/sceneManager/tree/master/src) 配下のファイルをsketch内に追加してください
 
 ### Make Scene
 
@@ -39,11 +35,11 @@ class TestScene extends Scene {
 ### Set Scene
 
 ```java
-sceneAdministrator.set("test", new TestScene());
+SceneManager.set("test", new TestScene());
 ```
 
 ### Change Scene
 
 ```java
-sceneAdministrator.changeScene("test");
+SceneManager.changeScene("test");
 ```
