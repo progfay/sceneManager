@@ -1,54 +1,54 @@
 @Override
   void mouseClicked() {
-  SceneAdministrator.getCurrentScene().mouseClicked();
+  SceneManager.getCurrentScene().mouseClicked();
 }
 
 @Override
   void mouseDragged() {
-  SceneAdministrator.getCurrentScene().mouseDragged();
+  SceneManager.getCurrentScene().mouseDragged();
 }
 
 @Override
   void mouseEntered() {
-  SceneAdministrator.getCurrentScene().mouseEntered();
+  SceneManager.getCurrentScene().mouseEntered();
 }
 
 @Override
   void mouseExited() {
-  SceneAdministrator.getCurrentScene().mouseExited();
+  SceneManager.getCurrentScene().mouseExited();
 }
 
 @Override
   void mouseMoved() {
-  SceneAdministrator.getCurrentScene().mouseMoved();
+  SceneManager.getCurrentScene().mouseMoved();
 }
 
 @Override
   void mousePressed() {
-  SceneAdministrator.getCurrentScene().mousePressed();
+  SceneManager.getCurrentScene().mousePressed();
 }
 
 @Override
   void mouseReleased() {
-  SceneAdministrator.getCurrentScene().mouseReleased();
+  SceneManager.getCurrentScene().mouseReleased();
 }
 
 @Override
   void mouseWheel() {
-  SceneAdministrator.getCurrentScene().mouseWheel();
+  SceneManager.getCurrentScene().mouseWheel();
 }
 
 @Override
   void keyPressed() {
-  SceneAdministrator.getCurrentScene().keyPressed();
+  SceneManager.getCurrentScene().keyPressed();
 }
 
 @Override
   void keyReleased() {
-  SceneAdministrator.getCurrentScene().keyReleased();
+  SceneManager.getCurrentScene().keyReleased();
 }
 
 @Override
   void keyTyped() {
-  SceneAdministrator.getCurrentScene().keyTyped();
+  SceneManager.getCurrentScene().keyTyped();
 }
